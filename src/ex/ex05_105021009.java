@@ -12,11 +12,11 @@ public class ex05_105021009 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scn = new Scanner(System.in);
-		int v1 = scn.nextInt();
-		if(v1/2==0){
+		int x = scn.nextInt();
+		if(x%2==0){
 			System.out.println("偶數");
 		}else{
-			if(v1/2!=0){
+			if(x%2!=0){
 				System.out.println("奇數");
 			}
 		}
